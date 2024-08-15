@@ -33,3 +33,5 @@ Main file
 # Export the environment variable
 
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
+
+pip install --upgrade numexpr
