@@ -22,6 +22,10 @@ conda activate visa
 
 pip install -r requirements.txt
 
+if there is any issue in mongod connectivity then 
+
+pip install --upgrade pymongo dnspython
+
 # Workflow:
 
 constants

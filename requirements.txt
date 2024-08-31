@@ -15,6 +15,7 @@ evidently==0.2.8
 dill
 PyYAML
 neuro_mf
+neuro-mf
 boto3
 mypy-boto3-s3
 botocore
@@ -24,4 +25,6 @@ jinja2
 python-multipart
 python-dotenv
 from-root
+dnspython==2.6.1
+pymongo==4.8.0
 -e .
