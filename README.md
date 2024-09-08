@@ -22,20 +22,28 @@ conda activate visa
 
 pip install -r requirements.txt
 
-if there is any issue in mongod connectivity then 
+if there is any issue in mongod connectivity [timeout error or data ingestion from mongodb] then 
 
 pip install --upgrade pymongo dnspython
 
 # Workflow:
 
-constants
-entity
-components
-pipeline
-Main file
+- constants
+- entity
+- components
+- pipeline
+- Main file
 
 # Export the environment variable
 
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
 
+export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+
+export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
+
 pip install --upgrade numexpr
+
+After executing app.py enter following to give input independent variables for prediction
+
+http://localhost:8080
