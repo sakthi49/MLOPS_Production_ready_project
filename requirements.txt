@@ -15,7 +15,6 @@ dill
 PyYAML
 neuro_mf
 neuro-mf
-boto3
 mypy-boto3-s3
 botocore
 fastapi
